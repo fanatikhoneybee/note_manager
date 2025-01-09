@@ -1,16 +1,7 @@
-username = input('Имя пользователя:')
-print(username)
-title  = input('Заголовок заметки:')
-print(title)
-title  = input('Заголовок заметки:')
-print(title)
-title  = input('Заголовок заметки:')
-print(title)
-content = input('Описание заметки:')
-print(content)
-status = input('Статус заметки:')
-print(status)
-created_date = input('Дата создания заметки в формате "день-месяц-год":')
-print(created_date)
-issue_date = input('Дата истечения заметки (дедлайн) в формате "день-месяц-год":')
-print(issue_date)
+title1 = input("Введите заголовок заметки:")
+title2 = input("Введите заголовок заметки:")
+title3 = input ("Введите заголовок заметки:")
+
+title_list = [title1, title2, title3]
+
+print(title_list)
